@@ -1,13 +1,17 @@
 let main = document.getElementById("main");
 let def = document.getElementById("def");
-thing.addEventListener("click", () => {
-    main.classList.add;
-})
 let light = document.getElementById("light");
-thing.addEventListener("click", () => {
-    main.classList.toggle("light");
-})
 let dark = document.getElementById("dark");
-thing.addEventListener("click", () => {
-    main.classList.toggle("dark");
+
+def.addEventListener("click", () => {
+})
+
+light.addEventListener("click", () => {
+    main.classList.add("light");
+    main.classList.remove("dark");
+})
+
+dark.addEventListener("click", () => {
+    main.classList.add("dark");
+    main.classList.remove("light");
 })
