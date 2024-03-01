@@ -4,6 +4,8 @@ let light = document.getElementById("light");
 let dark = document.getElementById("dark");
 
 def.addEventListener("click", () => {
+    main.classList.remove("dark");
+    main.classList.remove("light");
 })
 
 light.addEventListener("click", () => {
